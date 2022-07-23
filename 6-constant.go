@@ -9,4 +9,6 @@ func main(){
 		firstName = "Apnan"
 		lastName = "Juanda"
 	)
+
+	fmt.Println(firstName)
 }
