@@ -30,4 +30,12 @@ func main(){
 	for key, value := range book{
 		fmt.Println(key, "=", value)
 	}
+
+	//making second map
+	laptop := make(map[string]string)
+	laptop["merk"] = "Asus"
+	laptop["price"] = "15000000"
+	for key, value := range laptop{
+		fmt.Println(key, "=", value)
+	}
 }
