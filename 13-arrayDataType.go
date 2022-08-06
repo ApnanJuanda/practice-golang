@@ -4,7 +4,7 @@ import "fmt"
 
 func main(){
 	//firstWay
-	var names[3] string
+	var names [3]string
 	names[0] = "Apnan"
 	names[1] = "Juanda"
 	names[2] = "Wanda"
